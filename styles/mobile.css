@@ -35,14 +35,6 @@
     padding: 0.5rem;
 }
 
-#showcase:before {
-    top: 118px;
-}
-
-#showcase .showcase-content {
-    top: 118px;
-}
-
 #who {
     display: block;
 }
