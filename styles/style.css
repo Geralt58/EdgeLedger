@@ -135,9 +135,21 @@ p {
 
 /* Showcase */
 #showcase {
-    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
+    background: #333;
     color: #fff;
+}
+
+#showcase:before {
+    content: '';
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    opacity: 0.4;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
 }
 
 #showcase .showcase-content {
@@ -154,7 +166,6 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Section: what we do */
