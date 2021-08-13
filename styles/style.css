@@ -163,7 +163,6 @@ p {
 #showcase .showcase-content {
     position: relative;
     padding: 0 2rem;
-    z-index: 1;
 }
 
 /* Section: what we do */
