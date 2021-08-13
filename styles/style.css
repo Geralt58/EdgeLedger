@@ -135,9 +135,9 @@ p {
 
 /* Showcase */
 #showcase {
-    height: 100vh;
     background: #333;
     color: #fff;
+    position: relative;
 }
 
 #showcase:before {
@@ -145,21 +145,25 @@ p {
     background: url('../img/showcase.jpg') no-repeat center center/cover;
     opacity: 0.4;
     position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-#showcase .showcase-content {
+#showcase .container {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    padding: 0 2rem;
-    /* Overlay */
+    height: 100vh;
+}
+
+#showcase .showcase-content {
     position: relative;
+    padding: 0 2rem;
+    z-index: 1;
 }
 
 /* Section: what we do */
